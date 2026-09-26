@@ -1,0 +1,6 @@
+train: data/images/train
+val: data/images/val
+test: data/images/test
+
+nc: 4
+names: ['CARDBOARD', 'METAL', 'PAPER', 'PLASTIC']
