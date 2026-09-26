@@ -155,7 +155,9 @@ YOLOWaste/
 
 ## 🤖 Model Training & Performance
 
-<div align="center">
+<table>
+<tr>
+<td valign="top">
 
 | ⚙️ Config | 📊 Value |
 |---|---|
@@ -168,11 +170,10 @@ YOLOWaste/
 | Training hardware | Tesla T4 GPU (Google Colab) |
 | Training time | ~41 minutes |
 
-</div>
+</td>
+<td valign="top">
 
 **Overall validation metrics:**
-
-<div align="center">
 
 | Metric | Score |
 |---|---|
@@ -181,7 +182,9 @@ YOLOWaste/
 | **mAP50** | **86.0%** |
 | mAP50-95 | 72.1% |
 
-</div>
+</td>
+</tr>
+</table>
 
 ---
 
