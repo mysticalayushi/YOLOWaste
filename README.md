@@ -18,10 +18,23 @@
 
 ---
 
+## 🚀 Live Demo
+
+<div align="center">
+
+[![Streamlit App](https://img.shields.io/badge/Streamlit-Live%20App-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://yolowaste-mn5rvjutgqzauabdg6xx8x.streamlit.app/)
+
+> ⚠️ **App may be sleeping** — Streamlit free tier may hibernate after inactivity. Click **Live App** and wait ~30s for it to spin up.
+
+</div>
+
+---
+
 ## 📚 Table of Contents
 
 <ul>
   <li><a href="#-project-overview">📌 Project Overview</a></li>
+  <li><a href="#-live-demo">🚀 Live Demo</a></li>
   <li><a href="#-problem-statement">❗ Problem Statement</a></li>
   <li><a href="#-project-structure">📂 Project Structure</a></li>
   <li><a href="#️-tech-stack">🛠️ Tech Stack</a></li>
