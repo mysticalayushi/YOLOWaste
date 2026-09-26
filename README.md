@@ -29,6 +29,7 @@
   <li><a href="#-methodology">⚙️ Methodology</a></li>
   <li><a href="#-model-training--performance">🤖 Model Training & Performance</a></li>
   <li><a href="#-per-class-results">📈 Per-Class Results</a></li>
+  <li><a href="#-screenshots--visuals">📷 Screenshots & Visuals</a></li>
   <li><a href="#-application-features">🚀 Application Features</a></li>
   <li><a href="#️-run-locally">▶️ Run Locally</a></li>
   <li><a href="#-future-improvements">🔭 Future Improvements</a></li>
@@ -187,6 +188,52 @@ YOLOWaste/
 Unlike the original (imbalanced) dataset split — where two classes had fewer than 5 validation instances and produced statistically meaningless metrics — every class here has 250+ validation instances, making these numbers genuinely trustworthy.
 
 See `results/plots/` for the full confusion matrix, precision-recall curve, and training loss curves.
+
+---
+
+## 📷 Screenshots & Visuals
+
+### Sample Detections
+
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <img src="docs/screenshots/sample_detection_1.jpg" alt="Sample Detection 1" width="100%"/>
+      <br/>
+      <em>Fig 1 — Model detecting and classifying waste items with bounding boxes</em>
+    </td>
+    <td align="center" width="50%">
+      <img src="docs/screenshots/sample_detection_2.jpg" alt="Sample Detection 2" width="100%"/>
+      <br/>
+      <em>Fig 2 — Multiple waste categories detected in a single image</em>
+    </td>
+  </tr>
+</table>
+
+### Model Validation
+
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <img src="docs/screenshots/confusion_matrix.png" alt="Confusion Matrix" width="100%"/>
+      <br/>
+      <em>Fig 3 — Confusion matrix across all four waste classes</em>
+    </td>
+    <td align="center" width="50%">
+      <img src="docs/screenshots/training_curves.png" alt="Training Curves" width="100%"/>
+      <br/>
+      <em>Fig 4 — Training/validation loss and mAP over 50 epochs</em>
+    </td>
+  </tr>
+</table>
+
+### Streamlit Demo App
+
+<div align="center">
+  <img src="docs/screenshots/streamlit_demo.png" alt="Streamlit Demo App" width="80%"/>
+  <br/>
+  <em>Fig 5 — Interactive demo: upload an image, get real-time waste detection</em>
+</div>
 
 ---
 
